@@ -16,6 +16,12 @@ java_bins_update: true
 
 java_type: jdk
 
+# JDK 12.0.2.10
+java_version: 12
+java_update: 2
+java_build: '10'
+java_download_code: 'e482c34c86bd4bf8b56c0b35558996b9'
+
 # JDK 12.0.0.33
 java_version: 12
 java_update: 0
