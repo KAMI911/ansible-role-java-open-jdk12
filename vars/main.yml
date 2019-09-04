@@ -3,7 +3,8 @@
 
 java_download_filename: 'open{{ java_type }}-{{ java_version }}.0.{{ java_update }}_{{ java_platform }}_bin.tar.gz'
 # java_download_filename: 'open{{ java_type }}-{{ java_version }}_{{ java_platform }}_bin.tar.gz'
-java_download_url: '{{ java_download_base_url }}/{{ java_type }}{{ java_version }}/{{ java_download_code }}/{{ java_build }}/GPL/{{ java_download_filename }}'
+java_download_url: '{{ java_download_base_url }}/{{ java_type }}{{ java_version }}.0.{{ java_update }}/{{ java_download_code }}/{{ java_build }}/GPL/{{ java_download_filename }}'
+# java_download_url: '{{ java_download_base_url }}/{{ java_type }}{{ java_version }}/{{ java_download_code }}/{{ java_build }}/GPL/{{ java_download_filename }}'
 
 # https://download.java.net/java/GA/jdk12.0.2/e482c34c86bd4bf8b56c0b35558996b9/10/GPL/openjdk-12.0.2_linux-x64_bin.tar.gz
 # https://download.java.net/java/GA/jdk12/13/GPL/openjdk-12.0.1_linux-x64_bin.tar.gz
